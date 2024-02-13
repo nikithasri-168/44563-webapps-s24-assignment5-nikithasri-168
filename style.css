@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  .container img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+</html>
