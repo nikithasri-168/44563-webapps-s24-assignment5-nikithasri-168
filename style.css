@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
   .container {
     display: flex;
     justify-content: space-around;
@@ -12,6 +11,27 @@
     height: 100px;
     margin-bottom: 10px;
   }
-</style>
+  tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table{
+    background-color: aqua;
+    border-color: brown;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+tr:nth-child(even) {
+    background-color: gold;
+}
 </head>
 </html>
